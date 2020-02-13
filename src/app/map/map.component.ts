@@ -14,7 +14,7 @@ const iconDefault = L.icon({
   tooltipAnchor: [16, -28],
   shadowSize: [41, 41]
 });
-L.marker.prototype.options.icon = iconDefault;
+L.Marker.prototype.options.icon = iconDefault;
 
 
 @Component({
